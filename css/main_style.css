@@ -21,8 +21,9 @@ header{
 main{
 	display: flex;
 	justify-content: center;
-	align-items: center
+	align-items: center;
 	width: 80%;
+	padding: 8px;
 	
 	border-radius: 3px;
 	
@@ -59,7 +60,7 @@ a {
 	color: red;
 }
 .box:hover {
-	opacity: 1;
+	opacity: .8;
 
 }
 img {
