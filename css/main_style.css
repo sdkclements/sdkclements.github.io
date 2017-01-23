@@ -1,0 +1,44 @@
+html{
+
+}
+body{
+	background-color: #616161;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+header{
+	background-color: darkgrey;
+	border-radius: 3px;
+
+}
+main{
+	
+	background-color: lightgrey;
+	border-radius: 3px;
+	
+
+}
+.portfolio {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: stretch;
+}
+.activeproj1, .activeproj2, .activeproj3 {
+	border: 3px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 4px;
+	padding: 2px;
+	margin: 4px;
+}
+footer {
+	background-color: black;
+	color: white;
+	border-radius: 3px;
+
+}
