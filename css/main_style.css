@@ -1,11 +1,13 @@
 html{
+	height: 100%;
 
 }
 body{
+	height: 100%;
 	background-color: #616161;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 
 }
@@ -17,16 +19,17 @@ header{
 }
 main{
 	
-	background-color: lightgrey;
+	
 	border-radius: 3px;
 	
 
 }
 .portfolio {
+
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	align-items: stretch;
+	justify-content: space-between;
+	align-items: center;
 }
 .activeproj1, .activeproj2, .activeproj3 {
 	border: 3px;
@@ -35,6 +38,8 @@ main{
 	border-radius: 4px;
 	padding: 2px;
 	margin: 4px;
+	width: 50%;
+	background-color: lightgrey;
 }
 footer {
 	background-color: black;
