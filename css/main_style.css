@@ -7,7 +7,7 @@ body{
 	background-color: #616161;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 
 }
@@ -15,13 +15,23 @@ body{
 header{
 	/*background-color: darkgrey;*/
 	border-radius: 3px;
+	align-self: center;
+
+}
+header img{
+	max-width: 150px;
+	max-height: 150px;
+	border-radius: 10px;
+	border: 5px;
+	border-style: solid;
+	border-color: white;
 
 }
 
 main{
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	/*align-items: center;*/
 	width: 80%;
 	padding: 8px;
 	
@@ -36,11 +46,13 @@ h2 {
 	min-width: 600px;
 	min-height: 370px;
 	/*flex-basis: 1000px;*/
-	border-radius: 3px;
-	border: 3px;
+	border-radius: 20px;
+	border: 7px;
 	border-style: solid;
+	border-color: white;
 	background-image: url('../images/raspi.png');
 	background-size: cover;
+
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -60,19 +72,22 @@ a {
 	color: red;
 }
 .box:hover {
-	opacity: .8;
+	opacity: .6;
 
 }
-img {
+/*img {
 	max-width: 100%;
 	max-height: 100%;
 	border-radius: 3px;
 }
-
+*/
 
 footer {
-	background-color: black;
 	color: white;
-	border-radius: 3px;
+	border-radius: 7px;
+	border: 3px;
+	border-style: solid;
+	border-color: white;
+	
 
 }
