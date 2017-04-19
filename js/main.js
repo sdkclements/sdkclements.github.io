@@ -1,8 +1,8 @@
-
-$(document).ready(function(){
-    $(".box").click(function(){
-        $("#hardw").hide();
-    });
-});
+//
+// $(document).ready(function(){
+//     $(".box").click(function(){
+//         $("#hardw").hide();
+//     });
+// });
 
 

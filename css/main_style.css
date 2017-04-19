@@ -45,7 +45,7 @@ h2 {
 .portfolioImage {
 	min-width: 600px;
 	min-height: 370px;
-	max-width: 800px;
+	max-width: 620px;
 	/*flex-basis: 1000px;*/
 	border-radius: 20px;
 	border: 7px;
