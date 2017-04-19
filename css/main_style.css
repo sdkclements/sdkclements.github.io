@@ -87,6 +87,8 @@ p {
 }
 
 footer {
+	margin:5px;
+	padding: 5px;
 	color: white;
 	border-radius: 7px;
 	border: 3px;
