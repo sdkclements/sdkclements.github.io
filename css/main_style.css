@@ -81,6 +81,9 @@ a {
 	border-radius: 3px;
 }
 */
+p {
+	font-weight: 200;
+}
 
 footer {
 	color: white;
