@@ -3,7 +3,9 @@ html{
 
 }
 body{
+    background-image: url('../images/back1.jpg');
 	height: 90%;
+    background-size:cover;
 	background-color: #616161;
 	display: flex;
 	flex-direction: column;
@@ -41,6 +43,10 @@ main{
 }
 h2 {
 	text-align: center;
+    color:dodgerblue;
+}
+h4{
+    color:mediumblue;
 }
 .portfolioImage {
 	min-width: 600px;
